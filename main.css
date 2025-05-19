@@ -1,7 +1,11 @@
 .head {
   background: #fc0;
   height: 100px;
-  position: relative;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
   width: 100px;
 }
 .face {
@@ -13,3 +17,4 @@
   top: 50%;
   transform: translate(-50%, -60%) rotate(90deg);
 }
+
